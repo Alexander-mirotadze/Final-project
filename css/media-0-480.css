@@ -1,5 +1,6 @@
-@media (min-width: 0px) and (max-width: 480px)
+@media (min-width: 1px) and (max-width: 480px)
 {
+    
 /* !header */
     .header-container{
         width: 96%;
@@ -27,4 +28,41 @@
         height: 2px;
         background-color: #FFFFFF;
     }
+/* ! section #1 */
+.section-1-container{
+    margin: 50px auto;
+    max-width: 480px;
+    height: 100%;
+    flex-wrap: wrap-reverse;
+}
+.section-1-container-left-div{
+    row-gap: 24px;
+}
+.section-1-container-left-div-text-h2{
+    max-width: 480px;
+    height: 100%;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+.section-1-container-left-div-text-p{
+    height: 100%;
+    text-align: center;
+}
+.section-1-container-left-div-text-button{
+    width: 100%;
+    height: 50px;
+}
+.section-1-container-left-div-text-button:hover{
+    transform: scale(1.1,1.1);
+}
+.section-1-container-left-div-boxcontainer{
+    grid-template-columns: repeat(auto-fill, 100%);
+    grid-template-rows: 1fr;
+    row-gap: 20px;
+}
+.section-1-container-right-div{
+    max-width: 480px;
+}
+
 }
