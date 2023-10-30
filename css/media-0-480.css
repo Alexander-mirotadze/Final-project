@@ -1,0 +1,30 @@
+@media (min-width: 0px) and (max-width: 480px)
+{
+/* !header */
+    .header-container{
+        width: 96%;
+    }
+    .logo-div{
+        max-width: 130px;
+        height: 35px;
+    }
+    .navigation-container{
+        display: none;
+    }
+    .burgerbar-menu{
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 4px;
+        background-color: #A53DFF;
+    }
+    .burgerbar-menu-lines{
+        width: 50%;
+        height: 2px;
+        background-color: #FFFFFF;
+    }
+}
