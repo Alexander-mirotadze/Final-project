@@ -61,7 +61,7 @@
     /* background-color: yellow; */
 }
 .navigation-li-items:hover{
-    box-shadow: 1px 1px 2px #A53DFF;
+    box-shadow: 5px 10px 5px #A53DFF;
     transform: scale(1.2,1.2);
 }
 .navigation-a-items{
