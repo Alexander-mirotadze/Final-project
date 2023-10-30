@@ -61,6 +61,7 @@
     /* background-color: yellow; */
 }
 .navigation-li-items:hover{
+    box-shadow: 1px 1px 2px #A53DFF;
     transform: scale(1.2,1.2);
 }
 .navigation-a-items{
@@ -203,3 +204,232 @@
 }
 /* ? სურათს ვერ ვშლი 100%-ით და რისი ბრალი შეიძლება იყოს */
 /* ! section # 2 */
+.section-2-container{
+    width: 100%;
+    position: relative;
+    /* background-color: red;
+    height: 200000px; */
+}
+/* !1111111111111111111111 */
+.section-2-container-top{
+    max-width: 1320px;
+    width: 100%;
+    height: 728px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 136px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99999;
+    background-color: #FFFFFF;
+    /* background-color: aqua; */
+}
+.section-2-container-top-left{
+    max-width: 424px;
+    width: 100%;
+    height: 504px;
+    position: relative;
+    /* background-image: url(../img/candidate-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-color: yellow; */
+}
+.section-2-container-top-left-img-div{
+    max-width: 424px;
+    width: 100%;
+    height: 468px;
+    border-radius: 10px;
+    background-color:  lightgray;
+}
+.section-2-container-top-left-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ? ცოცხალი თავით არ შლის სურათს 100%-ზე და რომ შლიდეს კარგად დაჯდებოდა */
+.section-2-container-top-left-socmedia{
+    max-width: 264px;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FFFFFF;
+    /* background-color: bisque; */
+}
+.section-2-socmedia-icons{
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+    background-color: #FFFFFF;
+    transition: all 0.5s;
+}
+.section-2-socmedia-icons:hover{
+    box-shadow: 1px 1px 2px #A53DFF;
+    transform: scale(1.02,1.1);
+}
+.linkedin{
+    background-color: #A53DFF;
+}
+.section-2-container-top-right{
+    max-width: 536px;
+    width: 100%;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+.section-2-container-top-right-h3{
+    width: 100%;
+    height: 100px;
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #132238;
+}
+.section-2-container-top-right-middle{
+    width: 100%;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 24px;
+    color: #556070;
+}
+.section-2-container-top-right-middle-p1{
+    width: 100%;
+    height: 72px;
+}
+.section-2-container-top-right-middle-p2{
+    width: 100%;
+    height: 48px;
+}
+.section-2-container-top-right-bottom{
+    max-width: 338px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    column-gap: 16px;
+}
+.section-2-container-top-right-bottom-myproject{
+    width: 132px;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #A53DFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+.section-2-container-top-right-bottom-myproject:hover{
+    transform: scale(1.07,1.07);
+}
+.section-2-container-top-right-bottom-download{
+    width: 190px;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px dotted #A53DFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #A53DFF;
+    padding-left: 60px;
+}
+.section-2-container-top-right-bottom-download-container{
+    position: relative;
+    transition: all 0.5s;
+}
+.section-2-container-top-right-bottom-download-container:hover{
+    transform: scale(1.07,1.07);
+}
+.download-icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 14px;
+    left: 26px;
+}
+/* !11111111111111111111 */
+.section-2-container-bottom{
+    width: 100%;
+    height: 988px;
+    position: absolute;
+    top: 620px;
+    left: 0;
+    z-index: 88888;
+    background-color: #F0F1F3;
+    /* background-color: lightgreen; */
+}
+.section-2-container-bottom-work-process{
+    max-width: 1320px;
+    width: 100%;
+    height: 600px;
+    margin: 248px auto 140px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    column-gap: 143px;
+    background-color: yellow;
+}
+.section-2-container-bottom-work-process-text{
+    max-width: 529px;
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.section-2-container-bottom-work-process-text-h3{
+    max-width: 323px;
+    width: 100%;
+    height: 56px;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #132238;
+}
+.section-2-container-bottom-work-process-text-Ppack{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    row-gap: 16px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 24px;
+    color: #697484;
+    background-color: bisque;
+}
+.section-2-container-bottom-work-process-text-Ppack-p1{
+    width: 100%;
+    height: 96px;
+}
+.section-2-container-bottom-work-process-text-Ppack-p2{
+    width: 100%;
+    height: 48px;
+}
+.section-2-container-bottom-work-process-cards{
+    max-width: 648px;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
