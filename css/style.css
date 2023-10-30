@@ -33,7 +33,8 @@
 .logo-image{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 .navigation-container{
     max-width: 722px;
@@ -197,7 +198,8 @@
 .section-1-container-right-div-image{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 /* ? სურათს ვერ ვშლი 100%-ით და რისი ბრალი შეიძლება იყოს */
 /* ! section # 2 */
