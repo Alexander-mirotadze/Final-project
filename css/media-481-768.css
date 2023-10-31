@@ -32,10 +32,11 @@
     .section-1-container{
     max-width: 768px;
     height: 100%;
-    margin: 50px auto;
+    margin: 50px auto 150px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
     }
     .section-1-container-left-div{
-        max-width: 530px;
         row-gap: 24px;
     }
     .section-1-container-left-div-text-h2{
@@ -71,14 +72,49 @@
     .section-1-container-left-div-box-p{
         font-size: 14px;
     }
-    .section-1-container-right-div{
-        height: 594px;
+/* ! section # 2 */
+    .section-2-container-top{
+        justify-content: space-between;
+        -moz-column-gap: 10px;
+             column-gap: 10px;
     }
-    .section-1-container-right-div-image{
+    .section-2-container-top-left{
         width: 100%;
         height: 100%;
-        -o-object-fit: cover;
-           object-fit: cover;
+    }
+    .section-2-container-top-left-img-div{
+        height: 95%;
+    }
+    .section-2-container-top-right{
+        width: 100%;
+        height: 100%;
+    }
+    .section-2-container-top-right-middle{
+        height: 200px;
+        font-size: 16px;
+    }
+    .section-2-container-top-right-middle-p1{
+        height: 100%;
+    }
+    .section-2-container-top-right-middle-p2{
+        height: 100%;
+    }
+    .section-2-container-top-right-bottom{
+        flex-direction: column;
+        row-gap: 16px;
+        height: 96px;
+        width: 100%;
+    }
+    .section-2-container-top-right-bottom-myproject{
+        width: 100%;
+        height: 40px;
+    }
+    .section-2-container-top-right-bottom-download-container{
+        width: 100%;
+        height: 40px;
+    }
+    .section-2-container-top-right-bottom-download{
+        width: 100%;
     }
 
 }
