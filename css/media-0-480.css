@@ -157,5 +157,8 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.work-process-boxes-text-h3{
+    font-size: 18px;
+}
 
 }
