@@ -209,7 +209,7 @@
     width: 100%;
     position: relative;
     /* background-color: red; */
-    /* height: 200000px; */
+    /* height: 1716px; */
 }
 /* !section # 2 top */
 .section-2-container-top{
@@ -515,3 +515,8 @@
     line-height: 24px;
     color: #556070;
 }
+/* ! section # 3 */
+.section-3{
+    margin-top: 1830px;
+}
+/* ? აქ მერჯინი 1830 პიქსელი დაიწერა რადგან ფოზიშენების შემდეგ დაწერილი სექცია არ დამალულიყო რელატიური სექციის უკან */
