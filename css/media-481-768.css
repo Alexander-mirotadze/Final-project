@@ -31,6 +31,7 @@
 /* !main */
     .section-1-container{
     max-width: 768px;
+    width: 100%;
     height: 100%;
     margin: 50px auto 150px;
     -moz-column-gap: 10px;
@@ -40,17 +41,14 @@
         row-gap: 24px;
     }
     .section-1-container-left-div-text-h2{
-        max-width: 530px;
         height: 100%;
-        font-size: 36px;
-        line-height: 73px;
-        text-align: center;
+        font-size: 38px;
+        line-height: 50px;
     }
     .section-1-container-left-div-text-p{
         height: 100%;
         font-size: 16px;
         line-height: 16px;
-        text-align: center;
     }
     .section-1-container-left-div-text-button{
         width: 100%;
@@ -89,8 +87,11 @@
         width: 100%;
         height: 100%;
     }
+    .section-2-container-top-right-h3{
+        height: 100%;
+    }
     .section-2-container-top-right-middle{
-        height: 200px;
+        height: 100%;
         font-size: 16px;
     }
     .section-2-container-top-right-middle-p1{
@@ -109,12 +110,66 @@
         width: 100%;
         height: 40px;
     }
+    .section-2-container-top-right-bottom-myproject:hover{
+        transform: scale(1,1);
+    }
     .section-2-container-top-right-bottom-download-container{
         width: 100%;
         height: 40px;
     }
     .section-2-container-top-right-bottom-download{
         width: 100%;
+    }
+    .section-2-container-top-right-bottom-download-container:hover{
+        transform: scale(1,1);
+    }
+    /* ! section # 2 bottom */
+    .section-2-container-bottom-work-process{
+        height: 615px;
+        -moz-column-gap: 5px;
+             column-gap: 5px;
+    }
+    .section-2-container-bottom-work-process-cards{
+        -moz-column-gap: 10px;
+             column-gap: 10px;
+        text-align: center;
+    }
+    .section-2-container-bottom-work-process-text{
+        row-gap: 20px;
+        height: 100%;
+    }
+    .section-2-container-bottom-work-process-text-h3{
+        height: 100%;
+        line-height: 50px;
+        font-size: 38px;
+    }
+    .section-2-container-bottom-work-process-text-Ppack{
+        height: 100%;
+        row-gap: 20px;
+    }
+    .section-2-container-bottom-work-process-text-Ppack-p1{
+        height: 100%;
+    }
+    .section-2-container-bottom-work-process-text-Ppack-p2{
+        height: 100%;
+    }
+    .work-process-boxes-text{
+        height: 100%;
+        row-gap: 20px;
+        text-align: center;
+    }
+    .work-process-boxes-text-p{
+        height: 100%;
+    }
+    .work-process-boxes-icon-div{
+        width: 100%;
+    }
+    .work-process-boxes-icon-div:hover{
+        transform: scale(1,1);
+        box-shadow: 1px 1px 2px #A53DFF;
+    }
+    .work-process-boxes-container{
+        height: 100%;
     }
 
 }

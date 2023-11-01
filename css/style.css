@@ -126,7 +126,7 @@
     height: 168px;
     font-family: 'Poppins';
     font-size: 72px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 84px;
     color: #132238;
     /* background-color: red; */
@@ -208,7 +208,7 @@
 .section-2-container{
     width: 100%;
     position: relative;
-    background-color: red;
+    /* background-color: red; */
     /* height: 200000px; */
 }
 /* !section # 2 top */
@@ -374,7 +374,7 @@
     left: 0;
     z-index: 88888;
     background-color: #F0F1F3;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 }
 .section-2-container-bottom-work-process{
     max-width: 1320px;
@@ -386,7 +386,7 @@
     align-items: center;
     -moz-column-gap: 143px;
          column-gap: 143px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .section-2-container-bottom-work-process-text{
     max-width: 529px;
@@ -444,7 +444,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: lawngreen;
+    /* background-color: lawngreen; */
 }
 .section-2-container-bottom-work-process-cards-right{
     margin-top: 24px;
@@ -454,7 +454,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: lawngreen;
+    /* background-color: lawngreen; */
 }
 .work-process-boxes{
     width: 100%;
@@ -463,7 +463,7 @@
     display: grid;
     place-items: center;
     background-color: #FFFFFF;
-    background-color: red;
+    /* background-color: red; */
 }
 .work-process-boxes-container{
     max-width: 248px;
@@ -472,7 +472,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 32px;
-    background-color: green;
+    /* background-color: green; */
 }
 .work-process-boxes-icon-div{
     width: 72px;
@@ -484,7 +484,7 @@
     transition: all 0.5s;
 }
 .work-process-boxes-icon-div:hover{
-    transform: scale(1.07,1.07);
+    transform: scale(1.05,1.05);
     box-shadow: 1px 1px 2px #A53DFF;
 }
 .research{
