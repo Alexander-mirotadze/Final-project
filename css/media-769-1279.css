@@ -35,10 +35,6 @@
         height: 120px;
         font-size: 14px;
     }
-    .section-1-container-left-div-text-button{
-        height: 100%;
-        font-size: 14px;
-    }
     .section-1-container-left-div-boxcontainer{
         grid-template-columns: repeat(auto-fill, 100%);
         grid-template-rows: 1fr;
