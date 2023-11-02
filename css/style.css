@@ -302,6 +302,7 @@
     left: 50%;
     transform: translateX(-50%);
     background-color: #FFFFFF;
+    box-shadow: 3px 3px 3px #f2e6ff;
     /* background-color: bisque; */
 }
 .section-2-socmedia-icons{
@@ -559,5 +560,85 @@
 /* ! section # 3 */
 .section-3{
     margin-top: 1830px;
+    display: grid;
+    place-items: center;
+    row-gap: 50px;
 }
 /* ? აქ მერჯინი 1830 პიქსელი დაიწერა რადგან ფოზიშენების შემდეგ დაწერილი სექცია არ დამალულიყო რელატიური სექციის უკან */
+.portfolio-container{
+    width: 100%;
+    /* height: 1174px; */
+    margin-top: 100px;
+    display: grid;
+    /* justify-content: center; */
+    row-gap: 70px;
+    background-color: yellow;
+}
+.portfolio-container-top{
+    width: 100%;
+    height: 128px;
+    display: grid;
+    place-items: center;
+    row-gap: 24px;
+    text-align: center;
+    background-color: red;
+}
+.portfolio-container-top-h2{
+    max-width: 205px;
+    width: 100%;
+    height: 56px;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #132238;
+    background-color: green;
+}
+.portfolio-container-top-p{
+    max-width: 577px;
+    width: 100%;
+    height: 48px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #87909D;
+    margin-bottom: 100px;
+    background-color: lawngreen;
+}
+.portfolio-container-bottom{
+    width: 100%;
+   display: grid;
+    justify-content: center;
+    row-gap: 24px;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1320px));
+    background-color: red;
+}
+.portfolio-container-bottom-boxe-container{
+    display: grid;
+    column-gap: 24px;
+    grid-template-columns: repeat(3,minmax(200px,424px));
+    background-color: aqua;
+}
+.portfolio-box{
+    background-color: aquamarine;
+}
+.portfolio-box-img{
+    width: 100%;
+}
+.more-project-form{
+    width: 149px;
+    height: 48px;
+    margin-bottom: 100px;
+}
+.more-project-button{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #A53DFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+}
