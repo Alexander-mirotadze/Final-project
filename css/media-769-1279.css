@@ -3,6 +3,8 @@
 
 /* !header */
     .navigation-container{
+        max-width: 491px;
+        width: 100%;
         -moz-column-gap: 15px;
              column-gap: 15px;
     }
@@ -13,11 +15,8 @@
     .navigation-li-items:hover{
         transform: scale(1.07,1.07);
     }
-    .navigation-start-button{
-        height: 38px;
-    }
-    .navigation-start-button:hover{
-        transform: scale(1.07,1.07);
+    .navigation-contact-button:hover{
+        transform: scale(1.05,1.05);
     }
 /* !main */
     .section-1-container{
