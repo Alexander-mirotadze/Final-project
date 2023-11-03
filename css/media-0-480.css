@@ -4,6 +4,7 @@
 /* !header */
     .header-container{
         width: 96%;
+        height: 50px;
     }
     .logo-div{
         max-width: 130px;
@@ -28,10 +29,14 @@
         height: 2px;
         background-color: #FFFFFF;
     }
+    .search-bar{
+        width: 96%;
+    }
 /* ! section #1 */
 .section-1-container{
-    margin: 50px auto 100px;
+    margin: 50px auto;
     max-width: 480px;
+    width: 96%;
     height: 100%;
     flex-wrap: wrap-reverse;
 }
@@ -67,13 +72,15 @@
 /* ! section # 2 */
 .section-2-container{
     position: static;
+    width: 96%;
+    margin: 0 auto;
 }
 .section-2-container-top{
     position: static;
     flex-direction: column;
     height: 100%;
     transform: translateX(0);
-    row-gap: 50px;
+    row-gap: 20px;
 }
 .section-2-container-top-left{
     width: 100%;
@@ -163,6 +170,14 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.section-2-container-bottom-work-process-cards-right{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    row-gap: 20px;
+}
+.section-2-container-bottom-work-process-cards-left{
+    row-gap: 20px;
+}
 .work-process-boxes-text-h3{
     width: 100%;
     font-size: 18px;
@@ -171,9 +186,23 @@
 .section-3{
     margin-top: 0px;
 }
+.portfolio-container{
+    margin: 50px auto 0;
+    row-gap: 20px;
+}
+.portfolio-container-top{
+    width: 96%;
+    height: 100%;
+    margin: 0 auto;
+}
+.portfolio-container-top-p{
+    height: 100%;
+    margin-bottom: 20px;
+}
 .portfolio-container-bottom-boxe-container{
-    grid-template-columns: repeat(1,minmax(200px,100%));
+    grid-template-columns: repeat(1,minmax(200px,96%));
     justify-content: center;
+    row-gap: 20px;
 }
 
 }
