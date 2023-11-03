@@ -20,6 +20,7 @@
     }
 /* !main */
     .section-1-container{
+        margin: 100px auto 0;
         -moz-column-gap: 5px;
              column-gap: 5px;
     }

@@ -609,7 +609,8 @@
 }
 .portfolio-container-bottom-boxe-container{
     display: grid;
-    column-gap: 24px;
+    -moz-column-gap: 24px;
+         column-gap: 24px;
     grid-template-columns: repeat(3,minmax(200px,424px));
     background-color: aqua;
 }
