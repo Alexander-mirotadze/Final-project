@@ -193,4 +193,12 @@
         grid-template-columns: repeat(1,minmax(200px,100%));
         justify-content: center;
     }
+    .section-3{
+        margin-top: 1700px;
+    }
+    .more-project-form{
+        margin-bottom: 50px;
+    }
+
+    /* ! section # 4 */
 }

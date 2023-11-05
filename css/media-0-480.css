@@ -205,5 +205,7 @@
     justify-content: center;
     row-gap: 20px;
 }
-
+.more-project-form{
+    margin-bottom: 50px;
+}
 }
