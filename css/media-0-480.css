@@ -208,4 +208,16 @@
 .more-project-form{
     margin-bottom: 50px;
 }
+/* ! section # 5 */
+.section-5-container{
+    width: 96%;
+    margin: 3.125rem auto;
+    /* background-color: lightgreen; */
+}
+.section-5-container-sliders{
+    grid-template-columns: repeat(auto-fit,100%);
+    width: 96%;
+    margin: 50 auto 0;
+}
+
 }

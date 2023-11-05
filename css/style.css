@@ -742,7 +742,7 @@
     color: #FFFFFF;
     text-shadow: 5px 5px 10px #9900ff;
 }
-.section-4-container-h4{
+.section-4-container-p{
     max-width: 36.0625rem;
     width: 100%;
     min-height: 3rem;
@@ -764,10 +764,97 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 12px;
+    -moz-column-gap: 12px;
+         column-gap: 12px;
     background-color: #A53DFF;
     font-family: 'Poppins';
     font-size: 1rem;
     font-weight: 700;
     color: #FFFFFF;
+}
+/* ! section # 5 */
+.section-5-container{
+    width: 100%;
+    margin: 6.25rem auto;
+    /* background-color: lightgreen; */
+}
+.section-5-container-h3{
+    margin: 0 auto;
+    max-width: 6.75rem;
+    width: 100%;
+    min-height: 3.5rem;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    color: #132238;
+}
+.section-5-container-p{
+    margin: 1.5rem auto 0;
+    max-width: 33.75rem;
+    width: 100%;
+    min-height: 3.25rem;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: #87909D;
+    /* background-color: burlywood; */
+}
+.section-5-container-sliders{
+    margin: 4.375rem auto 0;
+    max-width: 82.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12.5rem,1fr));
+    gap: 1.5rem;
+}
+.slide-box{
+    height: 21.875rem;
+    box-shadow: rgb(242, 230, 255) 3px 3px 3px;
+}
+.slide-box-image-div{
+    width: 100%;
+    height: 14.125rem;
+}
+.slide-box-image{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 0.25rem;
+}
+.slide-box-text{
+    max-width: 16.5rem;
+    width: 100%;
+    min-height: 4.75rem;
+    margin: 1.5rem auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    /* background-color: green; */
+}
+.slide-box-p{
+    /* max-width: 12.875rem; */
+    width: 100%;
+    min-height: 1.25rem;
+    font-family: 'Poppins';
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #87909D;
+}
+.slide-box-p::after{
+    content: " / 246 Comments";
+}
+.slide-box-p2{
+    width: 100%;
+    min-height: 3rem;
+    font-family: 'Poppins';
+    font-size: 1.125rem;
+    font-weight: 600;
+    /* line-height: 1.5rem; */
+    color: #333333;
 }
