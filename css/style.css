@@ -857,4 +857,8 @@
     font-weight: 600;
     /* line-height: 1.5rem; */
     color: #333333;
+    transition: all 0.5s;
+}
+.slide-box-p2:hover{
+    color: #A53DFF;
 }
