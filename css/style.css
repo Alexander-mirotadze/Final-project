@@ -756,6 +756,10 @@
 .lets-work-together-form{
     width: 15rem;
     height: 3rem;
+    transition: all 0.5s;
+}
+.lets-work-together-form:hover{
+    transform: scale(1.05,1.05);
 }
 .lets-work-together-button{
     width: 100%;
