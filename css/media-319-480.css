@@ -259,6 +259,7 @@
     width: 100%;
     align-items: center;
     text-align: center;
+    row-gap: 24px;
 }
 .section-6-container-left-div-top{
     align-items: center;
