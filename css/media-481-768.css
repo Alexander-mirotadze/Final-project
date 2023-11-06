@@ -7,7 +7,7 @@
         height: 100%;
         flex-direction: column;
         row-gap: 10px;
-        align-items: start;
+        align-items: flex-start;
         margin-bottom: 10px;
         position: relative;
     }
@@ -21,7 +21,7 @@
     .navigation-container.navigation-for-burger{
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
         row-gap: 20px;
         height: 100%;
     }
@@ -231,5 +231,27 @@
     .section-5-container-sliders{
         grid-template-columns: repeat(auto-fit,47%);
         width: 96%;
+    }
+    /* ! section # 6 */
+    .section-6-container{
+        flex-direction: column;
+        -moz-column-gap: 1.25rem;
+             column-gap: 1.25rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .section-6-container-left-div{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .section-6-container-left-div-top{
+        align-items: center;
+    }
+    .section-6-container-right-div{
+        margin-top: 50px;
+        width: 100%;
+        grid-template-columns: repeat(auto-fit,100%);
+        text-align: center;
     }
 }

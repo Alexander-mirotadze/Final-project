@@ -1,4 +1,4 @@
-@media (min-width: 1px) and (max-width: 480px)
+@media (min-width: 319px) and (max-width: 480px)
 {
     
 /* !header */
@@ -7,7 +7,7 @@
     height: 100%;
     flex-direction: column;
     row-gap: 10px;
-    align-items: start;
+    align-items: flex-start;
     margin-bottom: 10px;
     position: relative;
 }
@@ -21,13 +21,13 @@
 .navigation-container.navigation-for-burger{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     row-gap: 20px;
     height: 100%;
 }
 .navigation-ul-items{
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     row-gap: 20px;
 }
 .navigation-li-items:hover{
@@ -247,5 +247,27 @@
     width: 96%;
     margin: 50 auto 0;
 }
-
+/* ! section # 6 */
+.section-6-container{
+    flex-direction: column;
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.section-6-container-left-div{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.section-6-container-left-div-top{
+    align-items: center;
+}
+.section-6-container-right-div{
+    margin-top: 50px;
+    width: 96%;
+    grid-template-columns: repeat(auto-fit,100%);
+    place-items: center;
+    text-align: center;
+}
 }
