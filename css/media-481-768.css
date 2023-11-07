@@ -254,4 +254,9 @@
         grid-template-columns: repeat(auto-fit,100%);
         text-align: center;
     }
+    /* !section # 7 */
+    .section-7-container-bottom{
+        grid-template-columns: repeat(auto-fit,45%);
+        justify-content: center;
+    }
 }
