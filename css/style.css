@@ -1053,3 +1053,97 @@
     -o-object-fit: cover;
        object-fit: cover;
 }
+/* ! section # 8 */
+.section-8-container{
+    max-width: 54.5rem;
+    width: 96%;
+    min-height: 23.5rem;
+    margin: 0 auto 6.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4.375rem;
+    box-shadow: rgb(242, 230, 255) 3px 3px 3px;
+    /* background-color: red; */
+}
+.section-8-container-div-top{
+    max-width: 36.0625rem;
+    width: 100%;
+    min-height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+    text-align: center;
+    /* background-color: yellow; */
+}
+.section-8-container-div-top-h2{
+    max-width: 17.125rem;
+    width: 100%;
+    min-height: 3.5rem;
+    font-family: 'Poppins';
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    color: #333333;
+    /* background-color: lightcyan; */
+}
+.section-8-container-div-top-p{
+    width: 100%;
+    min-height: 3rem;
+    font-family: 'Poppins';
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #87909D;
+    /* background-color: lightcyan; */
+}
+.section-8-container-div-bottom{
+    width: 100%;
+    min-height: 11.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+    text-align: center;
+    /* background-color: yellow; */
+}
+.section-8-container-div-bottom-p{
+    width: 100%;
+    min-height: 3rem;
+    font-family: 'Poppins';
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5rem;
+    color: #2B384C;
+}
+.section-8-container-div-bottom-div-costumer{
+    min-height: 3.625;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+    /* background-color: green; */
+}
+.section-8-container-div-bottom-div-customer-name{
+    max-width: 8.1875rem;
+    width: 100%;
+    min-height: 1.625rem;
+    font-family: 'Poppins';
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.625rem;
+    color: #000000;
+    /* background-color: lawngreen; */
+}
+.section-8-container-div-bottom-div-customer-company{
+    width: 100%;
+    min-height: 1.5rem;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #000000;
+    /* background-color: lawngreen; */
+}
