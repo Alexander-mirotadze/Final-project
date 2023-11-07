@@ -250,6 +250,7 @@
 /* ! section # 6 */
 .section-6-container{
     flex-direction: column;
+    row-gap: 2rem;
     -moz-column-gap: 1.25rem;
          column-gap: 1.25rem;
     width: 100%;
