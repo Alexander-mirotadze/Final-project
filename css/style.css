@@ -1383,6 +1383,10 @@
   align-items: center;
   -moz-column-gap: 0.75rem;
   column-gap: 0.75rem;
+  font-family: 'Poppins';
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.5rem;
   background-color: #a53dff;
   color: #ffffff;
 }
