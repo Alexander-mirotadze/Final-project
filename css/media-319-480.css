@@ -34,9 +34,6 @@
     box-shadow: 5px 10px 5px #A53DFF;
     transform: scale(1.001,1.2);
 }
-.navigation-contact-button:hover{
-    transform: scale(1.01,1.05);
-}
 .burgerbar-menu{
     width: 35px;
     height: 35px;

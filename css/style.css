@@ -76,26 +76,6 @@
 .navigation-a-items:hover{
     color: #A53DFF;
 }
-.navigation-contact-button-form{
-    max-width: 111px;
-    width: 100%;
-    height: 48px;
-}
-.navigation-contact-button{
-    width: 100%;
-    height: 100%;
-    border-radius: 4px;
-    background-color: #A53DFF;
-    font-family: 'Poppins';
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    transition: all 0.5s;
-}
-.navigation-contact-button:hover{
-    transform: scale(1.05,1.05);
-}
 .burgerbar-menu{
     display: none;
 }
@@ -291,7 +271,6 @@
     -o-object-fit: cover;
        object-fit: cover;
 }
-/* ? ცოცხალი თავით არ შლის სურათს 100%-ზე და რომ შლიდეს კარგად დაჯდებოდა */
 .section-2-container-top-left-socmedia{
     max-width: 264px;
     width: 100%;
@@ -319,9 +298,6 @@
 .section-2-socmedia-icons:hover{
     box-shadow: 1px 1px 2px #A53DFF;
     transform: scale(1.02,1.1);
-}
-.linkedin{
-    background-color: #A53DFF;
 }
 .section-2-container-top-right{
     width: 536px;
@@ -524,9 +500,6 @@
 .work-process-boxes-icon-div:hover{
     transform: scale(1.05,1.05);
     box-shadow: 1px 1px 2px #A53DFF;
-}
-.research{
-    background-color: #A53DFF;
 }
 .work-process-boxes-text{
     width: 248px;
@@ -1042,6 +1015,7 @@
     width: 100%;
     box-shadow: rgb(242, 230, 255) 3px 3px 3px;
     background: linear-gradient(#f5ebff,#f5ebff,#f5ebff);
+    transition: all 0.5s;
     /* background-color: red; */
 }
 .section-7-container-bottom-box:hover{
@@ -1146,4 +1120,178 @@
     line-height: 1.5rem;
     color: #000000;
     /* background-color: lawngreen; */
+}
+/*! footer */
+.footer-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 777777;
+}
+.footer-container-top{
+    max-width: 82.5rem;
+    width: 100%;
+    min-height: 45rem;
+    position: absolute;
+    z-index: 555555;
+    border-radius: 0.9375rem;
+    background-color: #FFFFFF;
+    box-shadow: rgb(242, 230, 255) 3px 3px 3px;
+    /* background-color: red; */
+}
+.footer-container-top-left{
+    max-width: 30.0625rem;
+    width: 100%;
+    min-height: 34rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.1875rem;
+}
+.footer-container-top-left-text{
+    width: 100%;
+    min-height: 7.125rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.footer-container-top-left-text-h2{
+    width: 100%;
+    min-height: 3.125rem;
+    font-family: 'Poppins';
+    font-size: 2.375rem;
+    font-weight: 700;
+    line-height: 3.125rem;
+    color: #132238;
+    /* background-color: green; */
+}
+.footer-container-top-left-text-p{
+    width: 100%;
+    min-height: 3rem;
+    font-family: 'Poppins';
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: #87909D;
+    /* background-color: green; */
+}
+.footer-container-top-left-contacts{
+    max-width: 21rem;
+    width: 100%;
+    min-height: 19.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.75rem;
+}
+.footer-container-top-left-contacts-boxes{
+    width: 100%;
+    min-height: 6rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.8125rem;
+    box-shadow: rgb(242, 230, 255) 0px 3px 3px;
+    transition: all 0.5s;
+    /* background-color: lightblue; */
+}
+.footer-container-top-left-contacts-boxes:hover{
+    transform: scale(1.05,1.05);
+    border-left: 5px solid #A53DFF;
+}
+.location-img-box-div{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.25rem;
+    display: grid;
+    place-items: center;
+    background-color: #EDD8FF;
+    margin-left: 1.5rem;
+}
+.location-text-wraper{
+    max-width: 9rem;
+    width: 100%;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0.25rem;
+    /* background: lawngreen; */
+}
+.location-text-wraper-p1{
+    font-family: 'Poppins';
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #424E60;
+}
+.location-text-wraper-p2{
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #132238;
+}
+.footer-soc-media{
+    max-width: 18rem;
+    width: 100%;
+    min-height: 3rem;
+    display: flex;
+    column-gap: 0.75rem;
+}
+.footer-socmedia-icons{
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+    background-color: #FFFFFF;
+    transition: all 0.5s;
+}
+.footer-socmedia-icons:hover{
+    box-shadow: 1px 1px 2px #A53DFF;
+    transform: scale(1.02,1.1);
+}
+.footer-container-bottom{
+    width: 100%;
+    min-height: 20.625rem;
+    background: linear-gradient(45deg, #f2e6ff, #ffffff, #f2e6ff, #ffffff);
+    position: absolute;
+    top: 41.25rem;
+    left: 0;
+    z-index: 444444;
+}
+.footer-navigation-container{
+    max-width:  82.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10rem auto 3.125rem;
+    /* background-color: yellow; */
+}
+.footer-navigation-wraper{
+    max-width: 34.4375rem;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: lightblue; */
+}
+.footer-navigation-ul-items{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-navigation-container-p{
+    max-width: 11.625rem;
+    width: 100%;
+    min-height: 1.5rem;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: #A53DFF;
 }
