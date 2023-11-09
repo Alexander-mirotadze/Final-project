@@ -1021,6 +1021,47 @@
 .section-7-container-bottom-box:hover{
     transform: scale(1.05,1.05);
 }
+.brand-transition{
+    transition: all 0.7s;
+
+}
+.section-7-container-top-img:hover .g{
+    fill: #0066ff;
+}
+.section-7-container-top-img:hover .L{
+    fill: #00cc00;
+}
+.section-7-container-top-img:hover .o1-e{
+    fill: #ff0000;
+}
+.section-7-container-top-img:hover .o2{
+    fill: #ffb800;
+}
+.section-7-container-top-img:hover .dribbb{
+    fill: #000000;
+}
+.section-7-container-top-img:hover .lin-box{
+    fill: #006699;
+}
+.section-7-container-top-img:hover .link-1{
+    fill: #000000;
+}
+.section-7-container-top-img:hover .in{
+    fill: #FFFFFF;
+}
+.section-7-container-top-img:hover .amaz{
+    fill: #ffffd9;
+    filter: drop-shadow(1px 1px 1px #000000);
+}
+.section-7-container-top-img:hover .amaz-2{
+    fill: #ffb500;
+}
+.section-7-container-top-img:hover .mediu{
+    fill: #000000;
+}
+.section-7-container-top-img:hover .spoti{
+    fill: #45de45;
+}
 .section-7-container-top-img{
     width: 100%;
     height: 100%;
@@ -1195,7 +1236,6 @@
     /* background-color: lightblue; */
 }
 .footer-container-top-left-contacts-boxes:hover{
-    transform: scale(1.05,1.05);
     border-left: 5px solid #A53DFF;
 }
 .location-img-box-div{
