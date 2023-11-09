@@ -1389,6 +1389,10 @@
   line-height: 1.5rem;
   background-color: #a53dff;
   color: #ffffff;
+  transition: all 0.5s;
+}
+.footer-submit-button:hover{
+  transform: scale(1.05,1.05);
 }
 .footer-container-bottom {
   width: 100%;
