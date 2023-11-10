@@ -5,3 +5,4 @@ let burger_block = document.getElementById("burger-block");
 burger_block.addEventListener("click", function () {
     navigation_block.classList.toggle("navigation-for-burger");
 });
+// ! slider
