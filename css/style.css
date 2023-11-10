@@ -57,6 +57,7 @@
   /* background-color: green; */
 }
 .navigation-li-items {
+  border-radius: 3px;
   transition: all 0.5s;
   /* background-color: yellow; */
 }
