@@ -294,7 +294,7 @@
   .section-5-container-sliders {
     grid-template-columns: repeat(auto-fit, 100%);
     width: 96%;
-    margin: 50 auto 0px;
+    margin: 50px auto 0px;
   }
   /* ! section # 6 */
   .section-6-container {
