@@ -686,7 +686,7 @@
     margin-top: 1700px;
   }
   .portfolio-container-bottom-boxe-container {
-    -ms-grid-columns: (minmax(200px, 100%)) [1];
+    -ms-grid-columns: (minmax(200px, 100%)) [];
     grid-template-columns: repeat(1, minmax(200px, 100%));
     -webkit-box-pack: center;
     -ms-flex-pack: center;
